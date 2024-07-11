@@ -1,0 +1,542 @@
+* {
+  padding: 0%;
+  margin: 0%;
+}
+body {
+  position: relative; 
+}
+
+.bgmain {
+  color: aliceblue;
+  background-repeat: no-repeat;
+  background-size: 100%;
+  height: 50rem;
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url(./hero-bg.jpg) fixed center center;
+}
+
+.welcome {
+  margin: 6%;
+  margin-top: 18%;
+}
+.welcome h1 {
+  font-size: 4rem;
+}
+.welcomeall {
+  font-size: 1.45rem;
+}
+.welcome1 {
+  width: 45%;
+  padding: 1rem;
+  border-radius: 1rem;
+  background-color: aliceblue;
+}
+.welcome1 input {
+  padding: 8px;
+  padding-right: 55%;
+  border: 1px solid aliceblue;
+  background-color: aliceblue;
+}
+/* DROPDWN */
+.menu ul li{
+	display: inline-block;
+	position: relative;
+}
+.menu ul li ul{
+	position: absolute;
+	left: 0;
+	top: 100%;
+	display: none;
+}
+
+.menu ul li:hover ul{
+	display: block;
+}
+
+.menu ul li ul li ul{
+	display: none !important;
+}
+
+.menu ul li ul li:hover ul{
+	display: block !important;
+	left: 100%;
+	top: 0;
+}
+/* company strated */
+
+.company img {
+  padding: 5rem;
+  filter: grayscale();
+}
+.company img:hover{
+  filter: none;
+
+}
+/* company endted */
+
+/* about us started */
+
+.about {
+  background: rgb(238, 236, 236);
+  height: 60rem;
+  padding: 4rem;
+}
+.about1 {
+  padding-top: 16%;
+}
+.card1 {
+  height: 90%;
+  border-radius: 20px;
+  width: 95%;
+  background-color: aquamarine;
+}
+.aa {
+  margin-left: 1rem;
+  margin-top: 1.6rem;
+}
+.about2 {
+  margin-left: 2rem;
+}
+.card1:hover .abouticon {
+  background: orangered;
+}
+.abouticon {
+  font-size: 2.2rem;
+  margin: 2rem;
+  width: 22%;
+  padding: 1.4rem;
+  background-color: rgb(251, 229, 229);
+  border: 1px;
+  border-radius: 2rem;
+}
+/* about us ended */
+
+/* about two part  */
+.aboutpart {
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+  url(./stats-bg.jpg) fixed center center;
+  background-repeat: no-repeat;
+  color: aliceblue;
+  height: 25rem;
+  width: 100%;
+}
+.aboutpart1 {
+  margin-top: 10rem;
+  padding-left: 0rem 10rem;
+}
+.fontsize {
+  font-size: 3.8rem;
+}
+/* about two part  */
+
+/* services started  */
+.servicesicon {
+  font-size: 3.4rem;
+  padding-right: 3rem;
+  padding-top: 3rem;
+}
+.services2 {
+  margin-top: 1rem;
+  margin: 3rem;
+}
+.services1 {
+  padding: 3rem;
+  font-size: 1.4rem;
+}
+
+/* services started  */
+
+/* feature started */
+
+.features3 {
+  margin-top: 10rem;
+  margin-left: 2rem;
+  padding: 2rem;
+}
+.feature2 {
+  max-width: 100%;
+  padding: 5rem;
+}
+
+.feature2-p1 {
+  margin-top: 2rem;
+  margin-left: 10rem;
+  width: 83%;
+  height: 80%;
+  border: 1rem solid whitesmoke;
+}
+.feature2-p2 {
+  margin-top: -19rem;
+  margin-right: -10rem;
+  width: 80%;
+  height: 70;
+  border: 1rem solid whitesmoke;
+}
+.feature2-p3 {
+  margin-left: 5rem;
+  width: 50rem;
+  height: 88%;
+  border: 1rem solid whitesmoke;
+}
+.feature4 {
+  padding: 10rem;
+}
+
+/* feature ended */
+
+/* potfolio started */
+.port4 img {
+  max-width: 100%;
+  height: auto;
+}
+      section {
+          padding: 60px 0;
+          min-height: 100vh;
+      }
+span, a, a:hover {
+  display: inline-block;
+  text-decoration: none;
+  color: inherit;
+}
+
+.blog img{
+  max-width: 100%;
+}
+.blog-head {
+margin-bottom: 70px;
+}
+
+.blog-head h6{
+color: #f05907;
+position: relative;
+display: inline-block;
+text-transform: capitalize;
+}
+section-title
+.blog-head h6:after, .blog-head h6:before{
+position: absolute;
+content: "";
+width: 50px;
+height: 3px;
+background: #f05907;
+top: 50%;
+}
+
+.blog-head h6:after{
+right: 120%;
+}
+
+.blog-head h6:before{
+left: 120%;
+}
+
+.profile-s{
+  margin: 1px;
+  margin-left: 45%;
+}
+.overlay {
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  background-color: rgba(147, 136, 130, 0.82);
+  overflow: hidden;
+  width: 100%;
+  height: 100%;
+  transition: .5s ease;
+}
+
+.item {
+  position: relative;
+  overflow: hidden;
+  margin: 20px 0;
+}
+
+.item:hover .overlay {
+bottom: 0;
+height: 100%;
+width: 100%;
+}
+
+.top-overlay {
+  bottom: 100%;    
+  height: 0;
+}
+.item:hover .top-overlay {
+bottom: 0;
+}
+.bottom-overlay {
+  top: 100%;
+}
+
+.item:hover .bottom-overlay {
+top: 0;
+}
+
+.right-overlay {
+  left: 100%;
+  height: 100%;
+}
+
+.item:hover .right-overlay {
+left : 0;
+}
+
+.left-overlay {
+  right: 100%;
+  height: 100%;
+  left:auto;
+}
+
+.item:hover .left-overlay {
+right : 0;
+}
+.fade-overlay {
+  height: 100%;
+  opacity: 0;
+}
+
+.item:hover .fade-overlay {
+opacity: 1;
+}
+.title-overlay {
+  height: auto;
+  top: auto;
+  opacity: 0;
+}
+.item:hover .title-overlay {
+  opacity: 1;
+  height: auto;
+  padding: 50px 0;
+}
+.text1 {
+  color: white;
+  font-size: 1.2vw;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+.container0{
+  display: flex;
+
+  text-align: initial;
+  border: 1px solid rgb(189, 185, 185);
+}
+.container1{
+  margin-right: 15rem;
+  padding: 9px;
+ 
+}
+.container0 i{
+  margin-top: 1rem;
+  margin-right: 4.45rem;
+}
+.pot{
+margin-top: -9rem;
+}
+/* potfolio ende */
+
+/* pricing started */
+.pricing1 {
+  height: 50rem;
+}
+.pricingicon {
+  font-size: 2rem;
+  padding: 2rem;
+  background-color: rgb(230, 38, 38);
+  color: antiquewhite;
+  border: 1rem solid rgb(255, 75, 75);
+  border-radius: 4.3rem;
+}
+.pricing-p {
+  text-align: initial;
+  padding-left: 2rem;
+  font-size: 1.3rem;
+}
+.top-m1 {
+  height: 54rem;
+  margin-top: -2rem;
+}
+.top-m {
+  margin-top: 5rem;
+}
+/* pricing started */
+/* frequntly stated */
+.freq1{
+  margin: 3rem;
+  padding-top: 2rem;
+  margin-left: 13rem;
+}
+.freq2{
+  width: 30%;
+  margin-top: 5%;
+}
+.freq3{
+  width: 50%;
+  padding-left: 10%;
+}
+
+.freq1 button{
+  width: 60rem;
+  font-size: 1.30rem;
+  padding-right: 4rem;
+  padding: 7%;
+  margin-top: 1rem;
+
+}
+/* frequntaly ended */
+
+/* team started */
+.teamimg{
+  width: 70%;
+  height: 70%;
+}
+.team2{
+  position: absolute;
+  display: none;
+}
+.team1{
+  position: relative;
+  display: inline-block;
+}
+.rounded-circle:hover{
+  opacity: 0.3;
+  background-color: black;
+}
+.team1:hover .team2{
+  display: block;
+  background-color: transparent ;
+  color: rgb(15, 12, 12);
+}
+.team2{
+  display: none;
+  position: absolute;
+  padding:6rem;
+  margin-left: 4.20rem;
+  margin-top: 1.50rem;
+  padding-top: 8rem;
+ font-size: 1.20rem;
+ border-radius: 10rem;
+}
+/* team ended */
+
+/* call action started */
+.call1{
+  color: white;
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+  url(./cta-bg.jpg) fixed center center;
+  height: 17rem;
+
+}
+.ACTIONBTN{
+  font-size: 1.20rem;
+  padding: 1rem;
+  background-color: transparent;
+  border: 1px solid gray;
+
+}
+/* call action ended */
+
+/* Testimonials started  */
+.test2{
+  height:27rem;
+}
+.test1{
+  margin-bottom:5rem;
+  background-color: rgb(249, 251, 251);
+}
+.test6{
+ color: black;
+}
+.test5{
+  margin-top: 3rem;
+}
+.testimg{
+  width: 10rem;
+  margin: 1rem;
+  height: 10rem;
+  margin-bottom: 80%;
+}
+
+/* Testimonials ended  */
+/* recent strted */
+.rentimg{
+  width: 5rem;
+  margin: 1rem;
+  height: 5rem;
+}
+.recent2{
+  margin-left: 8rem;
+  margin-top: 2%;
+}
+
+/* recent ended */
+
+/* contact stated */
+.contact4{
+  height: 65rem;
+  margin-left: 6rem;
+
+}
+.contact5{
+ background-color: rgb(247, 247, 247);
+ margin: 1rem;
+ padding: 2rem;
+ padding-right:6rem;
+}
+.contact2{
+  padding: 2rem;
+ padding-top: 12rem;
+ padding-bottom: 12rem;
+ padding-right: - 10rem;
+
+}
+.contact3{
+  background-color: rgb(247, 247, 247);
+ padding: 5rem;
+ margin-left:23rem;
+ padding-top: 2rem;
+ margin-bottom:9rem;
+ margin-top: 7rem;
+}
+.contact3 input{
+ margin-right: 4rem;
+ height: 3rem;
+ width: 100%;
+
+}
+.contactbtn{
+  margin-left: 27%;
+}
+/* contact ended */
+/* foter statted */
+.foterr{
+  background-color: rgb(247, 247, 247);
+  height: 34REM;
+}
+.foter-icon:hover {
+  color: red;
+}
+/* foter ended */
+
+.section-title h2:before, .section-title h2:after {
+  content: "";
+  width: 50px;
+  height: 2px;
+  background: red ;
+  display: inline-block;
+} 
+
+.section-title h2:before {
+  margin: 0 15px 10px 0;
+}
+
+.section-title h2:after {
+  margin: 0 0 10px 15px;
+}
+
